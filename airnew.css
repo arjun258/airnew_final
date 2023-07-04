@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+header{
+    border-bottom: 1px solid rgb(237, 233, 233);
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 75px;
+    height: 50px;
+    
+}
+.sticky_container{
+    position: sticky;
+    top: 0;
+    background-color: white;
+   
+}
+.search{
+    display: flex;
+    width: 325px;
+    height: 48px;
+    border-radius: 40px;
+    border: 1px solid lightgray;
+    align-items: center;
+    box-shadow:0.3px 0.3px 0.3px 0.3px lightgray;
+    cursor: pointer;
+}
+.search_div{
+    border:none ;
+    margin-left: 10px;
+    width: 100%;
+    height: 45px;
+    border-radius: 40px;
+    outline: none;
+    font-weight: 790;
+    display: flex;
+    gap: 10px;
+   justify-content: center;
+    font-size: 14px;
+    align-items: center;
+}
+.search:hover{
+    box-shadow:0.7px 0.7px 0.7px 0.7px lightgray;
+}
+.search_1,.search_2{
+    border-right: 1px solid lightgray;
+    padding-right: 8px;
+    color: #222222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.search_3{
+    color: #717171;
+   font-weight: 500;
+    
+}
+
+.search_3 p, .search_2 p, .search_1 p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+
+.search svg{
+    margin-right: 10px;
+    background-color: #ff385c;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+}
+header button{
+    background-color: white;
+    height: 100%;
+    align-self: center;
+    border: none;
+    font-size: 15px;
+}
+.logo{
+    color: #ff385c;
+    margin-top:8px;
+}
+.other{
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    gap: 20px;
+}
+.menu{
+    display: flex;
+    border: 1px solid lightgray;
+    border-radius: 48px;
+    padding: 5px 10px;
+    width: 70px;
+    align-items: center;
+    justify-content: space-evenly; 
+}
+.other_btn{
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+.other_btn:hover{
+    background-color: rgb(233, 229, 229);
+}
+
+.filter_container{
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.filter_container img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    object-fit: cover;
+    
+}
+.filter_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    color: rgb(141, 139, 139);
+    gap: 10px;
+    font-weight: 650;
+}
+.filter_btn{
+    display: flex;
+    height: 30px;
+    padding: 8px 15px ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    margin-left: 0px;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.filter_container div:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+.next_btn{
+    display: flex;
+    height: 30px;
+    padding: 0px 10px ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    margin-left: 0px;
+}
+.toggle_main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.toggle_container{
+    
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1px auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 40%;
+}
+.left{
+    display: flex;
+    gap: 10px;
+}
+.left1{
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+}
+.left2{
+    color: gray;
+    font-weight: 300;
+}
+
+.card_container{
+    width: 1400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 20px;
+    background-color: white;   
+    align-items: center;
+    justify-content: center;
+    
+}
+.sub_card_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400;
+    flex-wrap: wrap;
+    gap: 200px;
+}
+.first_row{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.card img{
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+}
+
+
+.card{
+    display: flex;
+
+    flex-direction: column;
+    gap: 15px;   
+     width: 300px;
+    height: 200px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    border-radius: 10px;
+
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.left_details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.rating{
+    display: flex;
+    gap: 5px;
+}
+.text_grey{
+    color:gray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.fixed_btn{
+    position:fixed;
+    bottom: 100px;
+    right: 45%;
+}
+.fixed_btn {
+    background-color: #222222;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.fixed_btn p{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fixed_btn:hover{
+    padding: 17px 20px;
+    transition:2s;
+}   
+
+
+.img_svg{
+    position: relative;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 1350px;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 1000px;
+}
+footer div{
+    display: flex;
+    gap: 10px;
+}
+.footer_container{
+   padding-top: 200px;
+    display:block;
+}
